@@ -1,6 +1,7 @@
 import type { LoaderFunction } from "@remix-run/node";
 import { json } from "@remix-run/node";
 import { Link, Outlet, Path, useLoaderData } from "@remix-run/react";
+import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from "react";
 
 import { getPosts } from "~/models/post.server";
 
